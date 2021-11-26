@@ -277,8 +277,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 351.0, 14.5, 443.0, 35.0 ],
-									"text" : ";\rmax launchbrowser https://soundarchitect.herokuapp.com/musicodex/compressor"
+									"patching_rect" : [ 351.0, 14.5, 448.0, 35.0 ],
+									"text" : ";\rmax launchbrowser https://soundarchitect.herokuapp.com/musicodex/compression"
 								}
 
 							}
