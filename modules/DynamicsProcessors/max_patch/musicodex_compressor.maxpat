@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 782.5, 195.11224489795913, 24.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 781.837633371353149, 192.11224489795913, 24.0, 20.0 ],
+					"text" : "ms",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 793.0, 393.958772301673889, 24.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 625.5, 192.11224489795913, 24.0, 20.0 ],
+					"text" : "ms",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.890196078431372, 0.803921568627451, 0.964705882352941, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 20.0,
@@ -169,7 +197,7 @@
 									"patching_rect" : [ 19.0, 324.0, 924.0, 348.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 21,
-									"presentation_rect" : [ 8.0, 107.0, 771.0, 429.0 ],
+									"presentation_rect" : [ 8.0, 107.0, 774.0, 429.0 ],
 									"text" : "Peak\nUsed to monitor signals with digital precision. In digital audio, amplitude values land between 0 and 1, with values exceeding 1 being too high in amplitude for the computer to be able to represent them, thereby causing clipping. Each \"LED\" on the meter represents a change of 3dB from the previous step, by default. The red \"over\" LED comes on if the signal is greater than or equal to 1, and lasts for about a second.\n\nRMS\nThis type of meters are used to measure the Root Mean Squared of our audio signal. RMS meters are used to visualize the average of a continuous signal. They are very popular in audio as they will provide us with a \"more musical\" representation of our signal. We can see the current RMS value expressed in dBFS (Decibels Full Scale).\n\nSonogram\nIt provides us with a 3-dimensional way to visualize audio:\n    - We can see time scrolling along the X-axis.\n    - The Y-axis represents frequencies, with higher frequency content located higher along the axis.\n    - The colors that we see represent amplitude at specific frequencies. Purple is used for lower amplitudes, going through green and yellow for medium amplitudes, and red for highest amplitudes."
 								}
 
@@ -1103,13 +1131,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 13.0,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 826.587627768516541, 459.0, 58.0, 20.0 ],
+					"patching_rect" : [ 826.587627768516541, 459.0, 63.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 712.337633371353149, 148.5, 58.0, 20.0 ],
+					"presentation_rect" : [ 729.837633371353149, 161.387755102040813, 63.0, 21.0 ],
 					"text" : "Release",
 					"textjustification" : 1
 				}
@@ -1118,13 +1147,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 13.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.0, 459.0, 55.0, 20.0 ],
+					"patching_rect" : [ 721.0, 459.0, 59.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 557.0, 148.5, 55.0, 20.0 ],
+					"presentation_rect" : [ 573.5, 161.387755102040813, 59.0, 21.0 ],
 					"text" : "Attack",
 					"textjustification" : 1
 				}
@@ -1133,13 +1163,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 13.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 834.0, 247.0, 43.0, 20.0 ],
+					"patching_rect" : [ 834.0, 247.0, 47.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 719.837633371353149, 57.112244897959187, 43.0, 20.0 ],
+					"presentation_rect" : [ 729.837633371353149, 70.0, 47.0, 21.0 ],
 					"text" : "Ratio",
 					"textjustification" : 1
 				}
@@ -1148,13 +1179,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 13.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 714.5, 247.0, 70.0, 20.0 ],
+					"patching_rect" : [ 714.5, 247.0, 75.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 549.5, 57.112244897959187, 70.0, 20.0 ],
+					"presentation_rect" : [ 573.5, 70.0, 75.0, 21.0 ],
 					"text" : "Threshold",
 					"textjustification" : 1
 				}
@@ -1269,7 +1301,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 726.0, 559.164944410324097, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 573.5, 178.25, 50.0, 22.0 ]
+					"presentation_rect" : [ 573.5, 191.112244897959158, 50.0, 22.0 ]
 				}
 
 			}
@@ -1405,7 +1437,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 886.0, 379.958772301673889, 32.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 764.837633371353149, 90.112244897959187, 32.0, 20.0 ],
+					"presentation_rect" : [ 764.837633371353149, 101.112244897959187, 32.0, 20.0 ],
 					"text" : "to 1"
 				}
 
@@ -1421,7 +1453,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.0, 378.958772301673889, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 729.837633371353149, 89.112244897959187, 33.0, 22.0 ]
+					"presentation_rect" : [ 729.837633371353149, 100.112244897959187, 33.0, 22.0 ]
 				}
 
 			}
@@ -1445,7 +1477,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 778.0, 378.958772301673889, 24.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 625.5, 89.112244897959187, 24.0, 20.0 ],
+					"presentation_rect" : [ 625.5, 100.112244897959187, 24.0, 20.0 ],
 					"text" : "dB",
 					"textjustification" : 1
 				}
@@ -1486,7 +1518,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 726.0, 377.958772301673889, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 573.5, 88.112244897959187, 50.0, 22.0 ]
+					"presentation_rect" : [ 573.5, 99.112244897959187, 50.0, 22.0 ]
 				}
 
 			}
@@ -1515,7 +1547,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.087627768516541, 517.164944410324097, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.337633371353149, 170.5, 37.5, 37.5 ],
+					"presentation_rect" : [ 674.337633371353149, 161.387755102040813, 51.724489795918345, 51.724489795918345 ],
 					"size" : 151.0
 				}
 
@@ -1533,7 +1565,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 726.0, 517.164944410324097, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 531.5, 170.5, 37.5, 37.5 ],
+					"presentation_rect" : [ 515.5, 161.387755102040813, 51.724489795918345, 51.724489795918345 ],
 					"size" : 151.0
 				}
 
@@ -1551,7 +1583,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.0, 304.958772301673889, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 687.837633371353149, 79.112244897959187, 40.0, 40.0 ],
+					"presentation_rect" : [ 671.837633371353149, 70.0, 54.224489795918345, 54.224489795918345 ],
 					"size" : 101.0
 				}
 
@@ -1569,7 +1601,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 726.0, 304.958772301673889, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 531.5, 79.112244897959187, 40.0, 40.0 ],
+					"presentation_rect" : [ 515.5, 70.0, 54.224489795918345, 54.224489795918345 ],
 					"size" : 101.0
 				}
 
@@ -1913,7 +1945,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.087627768516541, 559.164944410324097, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 729.837633371353149, 178.25, 50.0, 22.0 ]
+					"presentation_rect" : [ 729.837633371353149, 191.112244897959158, 50.0, 22.0 ]
 				}
 
 			}
